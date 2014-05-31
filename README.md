@@ -25,15 +25,11 @@ Solution 3) Same as solution 2. This was not written for steam versions, nor wil
 
 Current offsets needed
 0x7AAFE0 -> Market Value
-                                                                                                                                                                                                                                                                                                                                                                                                C3 - this is the offset      
-00 58 40 FB A2 00 00 00 00 00 00 00 00 00 00 00 A0 86 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 26 00 00 00 31 00 00 00 A1 00 00 00 C4 02 00 00 D0 05 00 00 C3 FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+(to find market value just keep pausing the game with a different value and search on only positive ints) There will be two statics remaining and either will work.
 
 0x7AA850 -> Speed Multiplier
-                                                                                                                                                                                                00 - this is the offset                    
-7C F9 A5 42 00 00 80 43 00 00 80 43 00 00 80 40 00 00 80 43 00 00 80 43 00 00 80 40 E9 07 00 00 02 00 00 00 0E 00 00 00 0A 00 00 00 2E 00 00 00 25 00 00 00 F4 01 00 00 00 00 00 00 00 00 8C 42 00 00 00 00 D5 02 00 00 A3 04 00 00 7C 92 00 00 00 00 00 00 2E 00 00 00 0A 00 00 00 1C F9 0F 00 00 00 00 00 F4 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 03 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00
-
 0x3411864 -> Next Speed
 0x3422860 -> Current Speed
 
-                                                                                                00- offset 1 followed by offset 2                                                                    
-2E 00 00 00 25 00 00 00 F4 01 00 00 05 00 00 00 0D EB 3B 00 7D 65 71 1C F4 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 EB 43 A3 43 0A 00 00 00 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 98 3A 00 00 00 00 00 00 00 00 00 00 78 48 57 2E D0 4D 57 2E D0 4D 57 2E 00 00 00 00 B0 6F 51 2E 88 BD 52 2E 88 BD 52 2E
+(to find the speeds there should be 3 static offsets remaining when you alter speed forward and back checking for increased/decreased value each time... really easy)
