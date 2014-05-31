@@ -1,0 +1,8 @@
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Release\marketPauser.exe.config
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Release\marketPauser.exe
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Release\marketPauser.pdb
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Release\marketPauser.Form1.resources
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Release\marketPauser.Properties.Resources.resources
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Release\marketPauser.csproj.GenerateResource.Cache
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Release\marketPauser.exe
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Release\marketPauser.pdb

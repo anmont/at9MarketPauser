@@ -1,0 +1,9 @@
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Debug\marketPauser.exe
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Debug\marketPauser.pdb
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.Form1.resources
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.Properties.Resources.resources
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.csproj.GenerateResource.Cache
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.exe
+c:\users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.pdb
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\obj\x86\Debug\marketPauser.csprojResolveAssemblyReference.cache
+C:\Users\anmont\documents\visual studio 2010\Projects\marketPauser\marketPauser\bin\Debug\marketPauser.exe.config
