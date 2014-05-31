@@ -38,10 +38,15 @@ Solution 3) Same as solution 2. This was not written for steam versions, nor wil
 Current offsets needed
 0x7AAFE0 -> Market Value
 
+
 (to find market value just keep pausing the game with a different value and search on only positive ints) There will be two statics remaining and either will work.
 
+
 0x7AA850 -> Speed Multiplier
+
 0x3411864 -> Next Speed
+
 0x3422860 -> Current Speed
+
 
 (to find the speeds there should be 3 static offsets remaining when you alter speed forward and back checking for increased/decreased value each time... really easy)
