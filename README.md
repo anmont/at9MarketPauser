@@ -17,18 +17,22 @@ Use:
 
 Troubleshooting:
 
-Issue 1) Global Hotkeys are not working
+Issue 1
+> Global Hotkeys are not working
 
-Solution Restart the Market Pauser. I have seen this happen in Win8.1 several times (I suspect the global hotkey is not being deregistered)
+> Solution Restart the Market Pauser. I have seen this happen in Win8.1 several times (I suspect the global hotkey is not being deregistered)
 
 
-Issue 2) Hotkeys are working but Market Value is not updating.
+Issue 2
+    
 
-Solution 1) Run as administrator
+> Issue 2) Hotkeys are working but Market Value is not updating.
 
-Solution 2) Open Cheat Engine and verify 0x7AAFE0 is still showing the correct number
+> Solution 1) Run as administrator
 
-If it is not, locate the memory location and rebuild with the new offset
+> Solution 2) Open Cheat Engine and verify 0x7AAFE0 is still showing the correct number
+
+> If it is not, locate the memory location and rebuild with the new offset
 Solution 3) Same as solution 2. This was not written for steam versions, nor will it find the offset based on signature. Use Cheat engine to find the proper offsets
 
 Current offsets needed
