@@ -49,3 +49,18 @@ Current offsets needed
 
 
 (to find the speeds there should be 3 static offsets remaining when you alter speed forward and back checking for increased/decreased value each time... really easy)
+
+Hack to remove purchase cap
+
+at address 0x4124CC is the following: cmp eax,05F5E100
+
+original value
+
+3D 00 E1 F5 05
+
+
+New Value 
+
+1dcd6500
+
+3D 00 65 CD 1D
