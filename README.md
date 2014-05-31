@@ -3,8 +3,6 @@ at9MarketPauser
 
 A simple application that pauses Atrain 9 when the global stock market values reach a specific threshold (read/write mem and global key hook)
 
-If you have trouble reading this please read it from the source... Github has not respect for carriage returns.
-
 Use:
 
 1. Open ATrain 9
@@ -26,7 +24,7 @@ Issue 1
 Issue 2
     
 
-> Issue 2) Hotkeys are working but Market Value is not updating.
+> Hotkeys are working but Market Value is not updating.
 
 > Solution 1) Run as administrator
 
