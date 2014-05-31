@@ -143,7 +143,8 @@ namespace marketPauser
             hook.KeyPressed += new EventHandler<KeyPressedEventArgs>(hook_KeyPressed);
             hook.RegisterHotKey(2, Keys.PageUp);
             hook.RegisterHotKey(2, Keys.PageDown);
-            
+
+            hackStockCnt();
 
 
         }
@@ -184,7 +185,7 @@ namespace marketPauser
 
             if (!buying)
             {
-                if (actual == Convert.ToInt32(txtBuy.Text) && previous == Convert.ToInt32(txtBuy.Text) - 1)
+                if (actual >= Convert.ToInt32(txtBuy.Text) && previous <= Convert.ToInt32(txtBuy.Text) - 1)
                 {
                     previous = 0;
                     pauseMe();
@@ -192,7 +193,7 @@ namespace marketPauser
             }
             else
             {
-                if (actual == Convert.ToInt32(txtSell.Text) && previous == Convert.ToInt32(txtSell.Text) + 1)
+                if (actual <= Convert.ToInt32(txtSell.Text) && previous >= Convert.ToInt32(txtSell.Text) + 1)
                 {
                     previous = 0;
                     pauseMe();
@@ -202,9 +203,19 @@ namespace marketPauser
             lblVal.Text = actual.ToString();
             
         }
+
+        public void hackStockCnt()
+        {
+            var key = BitConverter.GetBytes(0);
+            int bytesWritten;
+            byte[] c = new byte[] { 0x3D, 0x00, 0x65, 0xcd, 0x1d };
+            WriteProcessMemory(hProc, 0x4124CC, c, 5, out bytesWritten);
+        }
+
         public void pauseMe()
         {
             var key = BitConverter.GetBytes(0);
+
             int bytesWritten;
             WriteProcessMemory(hProc, 0x7AA850, key, 4,out bytesWritten);
             WriteProcessMemory(hProc, 0x3411864, key, 4, out bytesWritten);
